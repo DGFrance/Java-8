@@ -15,6 +15,7 @@ public class FileIOExamples {
 	public static List<String> testWords2 = Arrays.asList("quit", "squid", "book", "bookkeeper", "keep", "steep");
 	
 	public static String print10LetterWord(Stream<String> words) {
+	//testing with work copy
 		
 		return words
 				.filter(s -> s.length() == 10)
